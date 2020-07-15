@@ -3,7 +3,9 @@
     background-size: 100% 100%;
     
 }
-
+.eyeButton{
+	margin-left:0.313rem;
+}
 .sapMBar {
     height: 0rem;
     line-height: 2.75rem;
@@ -14,10 +16,14 @@
     align-self: center;
     color: #000000;
 }
+.LoginNewuserText
+{
+	font-size:0.875rem !important;
+}
 .Registerlink{
 	font-style: oblique;
-	font-size: .7rem;
-	margin-top: 5px;
+	margin-top: 2px;
+	overflow:visible!important;
 }
 /* Text box*/
 .sapMInputBaseContentWrapper {

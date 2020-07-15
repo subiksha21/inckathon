@@ -19,10 +19,10 @@
 													showCloseButton="false" class="sapUiMediumMarginBottom"></MessageStrip>
 											</VBox>		
 											<HBox >
-													<Input type="Password" width="100%" placeholder="Password" liveChange="passWordLogin" visible="{oVisibilityModel>/addpass1}"/>
-													<Input id="newshowpasswordid" width="100%" visible="{oVisibilityModel>/showpass1}"></Input>
-													<Button icon="sap-icon://show" press="showPassword1" visible="{oVisibilityModel>/showpassbtn1}"></Button>
-													<Button icon="sap-icon://hide" press="hidePassword1" visible="{oVisibilityModel>/hidepassbtn1}"></Button>
+													<Input type="Password" width="12.188rem" placeholder="Password" liveChange="passWordLogin" visible="{oVisibilityModel>/addpass1}"/>
+													<Input id="newshowpasswordid" width="12.188rem" visible="{oVisibilityModel>/showpass1}"></Input>
+													<Button icon="sap-icon://show" press="showPassword1" visible="{oVisibilityModel>/showpassbtn1}" class="eyeButton"></Button>
+													<Button icon="sap-icon://hide" press="hidePassword1" visible="{oVisibilityModel>/hidepassbtn1}" class="eyeButton"></Button>
 												</HBox>
 											<VBox alignItems="End">
 												<Link text="forgot password?" class="sapUiSmallMarginBottom Registerlink" press="OnPressingForgotPassword"/>
@@ -32,7 +32,7 @@
 											</VBox>
 											<VBox alignItems="Center">
 												<HBox>
-													<Text text="New User? "/>
+													<Text text="New User? " class="LoginNewuserText"/>
 													<Link text="Register here" press="OnPressingRegisterhereButton" class="Registerlink"/>
 												</HBox>
 											</VBox>
@@ -69,10 +69,10 @@
 											</VBox>
 											<VBox>
 												<HBox >
-													<Input type="Password" width="100%" placeholder="Password" liveChange="passWord" visible="{oVisibilityModel>/addpass}"/>
-													<Input id="showpasswordid" width="100%" visible="{oVisibilityModel>/showpass}"></Input>
-													<Button icon="sap-icon://show" press="showPassword" visible="{oVisibilityModel>/showpassbtn}"></Button>
-													<Button icon="sap-icon://hide" press="hidePassword" visible="{oVisibilityModel>/hidepassbtn}"></Button>
+													<Input type="Password" width="12.188rem" placeholder="Password" liveChange="passWord" visible="{oVisibilityModel>/addpass}"/>
+													<Input id="showpasswordid" width="12.188rem" visible="{oVisibilityModel>/showpass}"></Input>
+													<Button icon="sap-icon://show" press="showPassword" visible="{oVisibilityModel>/showpassbtn}" class="eyeButton"></Button>
+													<Button icon="sap-icon://hide" press="hidePassword" visible="{oVisibilityModel>/hidepassbtn}" class="eyeButton"></Button>
 												</HBox>
 												<VBox>
 													<MessageStrip text=" Length of password should be between 6-12" showIcon="false" type="Error" visible="{oVisibilityModel>/lengthcheck}"
@@ -106,7 +106,7 @@
 												</RadioButtonGroup>
 											</VBox>
 											<HBox>
-												<CheckBox text="I accept the" select="Isselected"/>
+												<CheckBox text="I accept the " select="Isselected"/>
 												<Link text="Terms and Conditions" press="handleLinkPress" class="tandcLogin"/>
 											</HBox>
 											<VBox alignItems="Center">
