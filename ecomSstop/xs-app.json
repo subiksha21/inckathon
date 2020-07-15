@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/ecomSstop/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/ecomSstop/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
