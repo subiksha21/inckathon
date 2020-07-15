@@ -107,7 +107,7 @@
 											</VBox>
 											<HBox>
 												<CheckBox text="I accept the" select="Isselected"/>
-												<Link text="Terms and Conditions" press="handleLinkPress" class="Registerlink sapUiSmallMarginTop"/>
+												<Link text="Terms and Conditions" press="handleLinkPress" class="tandcLogin"/>
 											</HBox>
 											<VBox alignItems="Center">
 												<Button type="Accept" text="Submit" press="Onpresssubmit" width="100%" class="SubmitButton"></Button>

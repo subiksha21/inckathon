@@ -17,6 +17,7 @@
 .Registerlink{
 	font-style: oblique;
 	font-size: .7rem;
+	margin-top: 5px;
 }
 /* Text box*/
 .sapMInputBaseContentWrapper {
@@ -24,6 +25,11 @@
     background:#ccebff;
     border-radius: 0.5rem;
     font-family: monospace;
+}
+.tandcLogin{
+	font-style: oblique;
+    font-size: .875rem;
+    margin-top: 13px;
 }
 /* Link*/
 
